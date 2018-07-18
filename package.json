@@ -1,0 +1,34 @@
+{
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build",
+    "start": "gulp",
+    "clean-deps": "rimraf node_modules",
+    "rebuild": "npm rebuild",
+    "clear-cache": "npm cache clean"
+  },
+  "dependencies": {
+    "gulp": "3.9.1"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "name": "canhcam-cab",
+  "description": "* Website Builder tool\r *",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackvietnam/01-blank-source"
+  },
+  "keywords": [
+    "gulp",
+    "task"
+  ],
+  "author": "BaoNguyen <baonguyenyam@gmail.com> (http://baonguyenyam.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullstackvietnam/01-blank-source/issues"
+  },
+  "homepage": "https://github.com/fullstackvietnam/01-blank-source#readme"
+}

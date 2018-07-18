@@ -1,0 +1,22 @@
+{
+	"name": "auto-build-static-web",
+	"description": "",
+	"main": "",
+	"authors": [
+		"baonguyen"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/fullstackvietnam/01-blank-source",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"jquery": "3.3.1",
+		"k-sass-core": "6.0.4",
+		"Modernizr": "http://modernizr.com/download/?-fontface-backgroundsize-borderimage-borderradius-boxshadow-flexbox-hsla-multiplebgs-opacity-rgba-textshadow-cssanimations-csscolumns-generatedcontent-cssgradients-cssreflections-csstransforms-csstransforms3d-csstransitions-applicationcache-canvas-canvastext-draganddrop-hashchange-history-audio-video-indexeddb-input-inputtypes-localstorage-postmessage-sessionstorage-websockets-websqldatabase-webworkers-geolocation-inlinesvg-smil-svg-svgclippaths-touch-webgl-shiv-mq-cssclasses-addtest-prefixed-teststyles-testprop-testallprops-hasevent-prefixes-domprefixes-load.zip"
+	}
+}
