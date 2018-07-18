@@ -6,7 +6,7 @@
 		"baonguyen"
 	],
 	"license": "MIT",
-	"homepage": "https://github.com/fullstackvietnam/01-blank-source",
+	"homepage": "https://github.com/fullstackvietnam/blank-source",
 	"ignore": [
 		"**/.*",
 		"node_modules",

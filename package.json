@@ -19,7 +19,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fullstackvietnam/01-blank-source"
+    "url": "git+https://github.com/fullstackvietnam/blank-source"
   },
   "keywords": [
     "gulp",
@@ -28,7 +28,7 @@
   "author": "BaoNguyen <baonguyenyam@gmail.com> (http://baonguyenyam.github.io/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fullstackvietnam/01-blank-source/issues"
+    "url": "https://github.com/fullstackvietnam/blank-source/issues"
   },
-  "homepage": "https://github.com/fullstackvietnam/01-blank-source#readme"
+  "homepage": "https://github.com/fullstackvietnam/blank-source#readme"
 }
