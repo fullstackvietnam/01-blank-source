@@ -8,7 +8,6 @@
     "clear-cache": "npm cache clean"
   },
   "dependencies": {
-    "gulp": "3.9.1"
   },
   "engines": {
     "node": ">=0.12.0"
