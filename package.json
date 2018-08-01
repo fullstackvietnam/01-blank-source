@@ -1,0 +1,24 @@
+{
+  "name": "nguyendeptrai",
+  "version": "1.0.0",
+  "description": "day la du an lam ve web sech ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackvietnam/blank-source.git"
+  },
+  "author": "KHOAI to",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullstackvietnam/blank-source/issues"
+  },
+  "homepage": "https://github.com/fullstackvietnam/blank-source#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "sass": "^1.10.1"
+  }
+}
