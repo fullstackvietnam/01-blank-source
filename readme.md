@@ -1,7 +1,16 @@
+# Cài đặt global
+> npm i -g bower gulp yo 
+
 # Cài đặt dự án
 
 Lệnh tạo file package.json
 > npm init
+
+Lệnh sử dụng lại dự án 
+> npm i
+
+Lệnh sử dụng lại dự án cho bower 
+> bower update
 
 Lệnh tạo file bower.json 
 > bower init
