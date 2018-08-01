@@ -24,6 +24,12 @@ Cài một plugins nào đó cho node mà chạy global đánh lệnh
 Cài đúng version nào đó đánh 
 > npm i gulp@3.4.5
 
+Để lưu vào npm hay bower bạn phải đánh thêm -S hoặc -D
+> npm i gulp -D
+
+Chúng ta phải thêm .gitignore
+> touch .gitignore
+
 Tương tự cho bower 
 
 Tại sao ng ta lại sử dụng chúng?
