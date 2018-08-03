@@ -23,7 +23,10 @@ gulp.task('taojs', function () {
 
 // Task này sẽ tìm tất cả file .pug trong thư mục src/templates sẽ build ra file .html ở thư mục dist
 gulp.task('taohtml', function buildHTML() {
-  return gulp.src('./src/template/**/*.pug')
+  return gulp.src([
+    './src/template/**/*.pug',
+    '!./src/template/{**/\_*,**/\_*/**}.pug'
+])
     .pipe(pug({
       pretty: true
     }))
