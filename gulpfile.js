@@ -4,12 +4,14 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var pug = require('gulp-pug');
 var babel = require('gulp-babel');
+var browserSync = require('browser-sync').create();
 
 // Task này sẽ tìm tất cả file .sass trong thư mục src/styles sẽ build ra file .css ở thư mục dist/css
 gulp.task('taocss', function () {
   return gulp.src('./src/styles/**/*.sass')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./dist/css'));
+  .pipe(sass().on('error', sass.logError))
+  .pipe(gulp.dest('./dist/css'))
+  .pipe(browserSync.stream())
 });
 
 // Task này sẽ tìm tất cả file .js trong thư mục src/scripts sẽ build ra file .js ở thư mục dist/js
@@ -38,6 +40,17 @@ gulp.task('theodoi', function () {
   gulp.watch('./src/styles/**/*.sass', ['taocss']);
   gulp.watch('./src/template/**/*.pug', ['taohtml']);
   gulp.watch('./src/scripts/**/*.js', ['taojs']);
+  gulp.watch("./dist/**/*.*").on('change', browserSync.reload);
+
+});
+
+// Static server
+gulp.task('browser-sync', function() {
+  browserSync.init({
+      server: {
+          baseDir: "./dist"
+      }
+  });
 });
 
 // Lệnh mặc định của Gulp
@@ -46,6 +59,7 @@ gulp.task('default', function () {
     'taocss',
     'taojs',
     'taohtml',
-    'theodoi'
+    'theodoi',
+    'browser-sync'
   ]);
 });
